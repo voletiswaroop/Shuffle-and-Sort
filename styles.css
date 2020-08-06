@@ -99,6 +99,7 @@
    header {
      background: #333;
      color: #fff;
+     padding: 15px 0;
    }
 
    main {
@@ -128,13 +129,14 @@
    .btn-wrapper {
      width: 100%;
      display: flex;
-     justify-content: space-around;
-     margin: 25px 0;
+     justify-content: space-evenly;
+     margin: 15px 0 23px;
    }
 
    .btn-wrapper button {
      margin: 0;
-     max-width: 45%;
+     max-width: 35%;
+     font-size: 14px;
    }
 
    [data-item='1'],
