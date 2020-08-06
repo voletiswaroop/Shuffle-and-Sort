@@ -53,6 +53,30 @@
         ++index;
       }
     }
+
+    //Another way of shuffling items
+    shuffleValues = (numbersArray) => {
+      let index = 0
+      numbersArray = numbersArray;
+      cubeWrapper.innerHTML = ''
+      for (let i = numbersArray.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [numbersArray[i], numbersArray[j]] = [numbersArray[j], numbersArray[i]];
+      }
+    }
+    //using callback to sufflearray value
+    shufflingArray = () => {
+      let index = 0
+      shuffleValues(numbersArray)
+      cubeWrapper.innerHTML = ''
+      while (index < numbersArray.length) {
+        let cubeItem = document.createElement("li");
+        cubeItem.innerHTML = numbersArray[index]
+        cubeItem.setAttribute('data-item', numbersArray[index])
+        cubeWrapper.appendChild(cubeItem)
+        ++index;
+      }
+    };
   </script>
 </body>
 
