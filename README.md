@@ -1,6 +1,6 @@
 # Shuffle-and-Sort
 
-Its a simple Sort and Shuffling widget developed using pure JS and CSS.
+Its a simple Sort and Shuffling widget developed using pure JS and CSS. This project enables Visually Sorting and Shuffling of listed items.
 
 ## Shuffle
 
@@ -12,7 +12,7 @@ On clicking upon the Sort button it arranges the cards in a sequence order
 
 ## Demo
 
-[Click here for demo](http://swaroopvoleti.me/shuffle-and-sort/) 
+[Click here for demo](http://swaroopvoleti.me/shuffle-and-sort/)
 
 Desktop view
 
