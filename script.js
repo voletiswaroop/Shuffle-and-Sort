@@ -30,9 +30,8 @@ sortArray = () => {
 }
 
 //Another way of shuffling items
-shuffleValues = (numbersArray) => {
-  let index = 0
-  numbersArray = numbersArray;
+shuffleArrayValues = (numbersArrayItems) => {
+  let index = 0, numbersArray = numbersArrayItems;
   cubeWrapper.innerHTML = ''
   for (let i = numbersArray.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
